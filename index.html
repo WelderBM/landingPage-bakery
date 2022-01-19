@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Paris Confeitaria</title>
+</head>
+
+<body>
+    <div id="conteiner">
+        <div id="background">
+            <nav>
+                <h4 id="h4Name">Paris Confeitaria</h4>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="#Servicos" >Seviços</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="toVisible()">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+            <main id="main">
+                <header>
+                    <h1>Paris Confeitaria</h1>
+                </header>
+                <form id="form" action="https://formsubmit.co/welderb40@gmail.com" method="POST">
+                    <h4 id="h4Contact">Entre em contato</h4>
+                    <label>
+                        Nome
+                        <input type="name" name="name" placeholder="Seu nome">
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="seuemail@gmail.com  ">
+                    </label>
+                    <label>
+                        Fale Conosco
+                        <textarea type="text" placeholder="Sua dúvida aqui"></textarea>
+                    </label>
+                    <input type="hidden" name="_template" value="box">
+                    <button type="submit" id="submit">Enviar</button>
+                </form>
+            </main>
+        </div>
+        <section>
+            <h2 id="Servicos">Nossos Serviços</h2>
+            <div id="cards">
+                <div class="card">
+                    <h3 class="h3Card">Cancer Care</h3>
+                    <div class="paragrafoServiços">
+                        <p>-The best products start with Figma</p>
+                        <p>-Design with real data</p>
+                        <p>-Lightning fast prototyping</p>
+                        <p>-Fastest way to organize</p>
+                        <p>-Work at the speed of thought.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="h3Card">Cancer Care</h3>
+                    <div class="paragrafoServiços">
+                        <p>-The best products start with Figma</p>
+                        <p>-Design with real data</p>
+                        <p>-Lightning fast prototyping</p>
+                        <p>-Fastest way to organize</p>
+                        <p>-Work at the speed of thought.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="h3Card">Cancer Care</h3>
+                    <div class="paragrafoServiços">
+                        <p>-The best products start with Figma</p>
+                        <p>-Design with real data</p>
+                        <p>-Lightning fast prototyping</p>
+                        <p>-Fastest way to organize</p>
+                        <p>-Work at the speed of thought.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2 id="h2Footer">Sobre Nós</h2>
+            <p class="paragraphFooter">Somos um escritório moderno, versátil e dinâmico, cujo objetivo é levar soluções
+                criativas e eficazes aos
+                clientes, tendo como sócios o Dr. Kleber Bissolatti e a Dra. Monique Antonacci, profissionais
+                multidisciplinares com sólida formação e vasta experiência em questões de grande complexidade.
+            </p>
+            <p class="paragraphFooter">
+                Peliciotti Advocacia é um escritório que preza pela qualidade dos serviços jurídicos, com amplo
+                conhecimento
+                e experiência de atuação. Contamos com uma equipe de profissionais experientes para atender nossos
+                clientes
+                de forma personalizada, contemplando as diversas áreas do Direito.
+            </p>
+            <p class="paragraphFooter">
+                Nosso escritório está comprometido em ter os melhores profissionais, advogados, colaboradores e
+                parceiros,
+                empenhados em oferecer seus serviços com grande sensibilidade e comprometimento, com a mais alta
+                competência
+                e comunicação com os clientes.
+            </p>
+            <p class="paragraphFooter">
+                Praticamos a lei com vocação e paixão pela profissão para responder com excelência à confiança
+                depositada em
+                nós pelos nossos clientes.
+            </p>
+        </footer>
+    </div>
+</body>
+<script>
+    const toVisible = () => {
+        const form = document.getElementById("form")
+        form.className = "form-contact"
+        console.log(form);
+    }
+</script>
+
+</html>
