@@ -21,7 +21,7 @@
   <li>sistema de <b>animações</b>(clique em "contatos" e veja a mágica!)</li>
 </ul>
 <br>
-<a href="https://welderbm.github.io/Paris-Confeitaria/">Aqui está o site</a>🎈
+<a href="https://welderbm.github.io/landingPage-bakery/">Aqui está o site</a>🎈
 <br>
 <h3>Implementações futuras:</h3>
 
